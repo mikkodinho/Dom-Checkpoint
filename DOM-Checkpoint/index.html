@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <title>DOM Checkpoint</title>
+</head>
+<body>
+    <body>
+        <div id="cart">
+            <!-- Sample cart items -->
+            <div class="cart-item">
+                <span>Item 1</span>
+                <div class="item-actions">
+                    <button class="decrement">-</button>
+                    <span class="quantity">1</span>
+                    <button class="increment">+</button>
+                    <!-- <span class="heart">🤍</span> -->
+                    <!-- <span class="heart"> -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-heart heart" viewBox="0 0 16 16"> <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/> </svg>
+                    <!-- </span> -->
+                    <button class="delete">Delete</button>
+                </div>
+                <span class="price">$10.00</span>
+            </div>
+            <div class="cart-item">
+                <span>Item 2</span>
+                <div class="item-actions">
+                    <button class="decrement">-</button>
+                    <span class="quantity">1</span>
+                    <button class="increment">+</button>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-heart heart" viewBox="0 0 16 16"> <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/> </svg>
+                    <button class="delete">Delete</button>
+                </div>
+                <span class="price">$20.00</span>
+            </div>
+            <!-- Add more items as needed -->
+        </div>
+        <div id="total">Total: $30.00</div>
+        
+        <script src="script.js"></script>
+</body>
+</html>
